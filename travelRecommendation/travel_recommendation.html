@@ -10,6 +10,42 @@
       background-attachment: fixed;
       background-size: 100% 100%;
     }
+    nav {
+      color: white;
+      background-color: black;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    nav ul {
+      list-style-type: none;
+    }
+  
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+  
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    .intro {
+      color: white;
+      max-width: 1000px;
+      margin:auto 50px;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    .intro p {
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
   </style>
 </head>
 
@@ -24,8 +60,9 @@
           <li><button id='btnReset'>Reset</button></li>
         </ul>
     </nav>
-
-    <h1>EXPLORE THE WORLD</h1>
-    <p>Come with us to places you never thought you could visit.</p>
+    <section class="intro">
+        <h1>EXPLORE THE WORLD</h1>
+        <p>Come with us to places you never thought you could visit.</p>
+    </section>
 </body>
 </html>
